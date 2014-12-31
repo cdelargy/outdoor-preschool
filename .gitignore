@@ -1,0 +1,17 @@
+.idea/*
+
+*.iml
+
+.settings/*
+
+target/*
+
+logs/*
+
+project/target/*
+project/project/*
+
+activator
+
+activator-launch-1.2.10.jar
+

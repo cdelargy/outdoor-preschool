@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/outdoor-preschool -Dhttp.port=${PORT}
