@@ -74,9 +74,11 @@ hr.leaf-primary:after {
 header {
 	text-align: center;
 	background: @brand-success;
+	background-image: url('img/foliage.jpg');
+	background-size: cover;
+	min-height: 640px;
 	color: white;
 	.container {
-
 		padding-top: 100px;
 		padding-bottom: 50px;
 	}
@@ -85,7 +87,9 @@ header {
 		margin: 0 auto 20px;
 	}
 	.intro-text {
+		text-shadow: 2px 2px 4px #2c3e50;
 		.name {
+			padding-top: 100px;
 			display: block;
 			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 			text-transform: uppercase;
@@ -152,6 +156,11 @@ header {
 			}
 		}
 	}
+}
+
+.transparent {
+  background: #2c3e50;
+  background:rgba(44, 62, 80, .9)
 }
 
 .navbar-default,
@@ -234,6 +243,23 @@ section.success {
             margin: 0 0 30px;
         }
     }
+}
+
+.btn-expander {
+	color: white;
+	font-size: 20px;
+	border: solid 2px @brand-success;
+	background: @brand-success;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: @brand-success;
+		background: white;
+		border: solid 2px @brand-success;
+	}
 }
 
 .btn-outline {
