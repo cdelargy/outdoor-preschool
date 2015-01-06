@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
-                        Philosophy & Mission Statement
+                        Philosophy & Mission
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -148,7 +148,7 @@
                     </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+                    <a href="@routes.Assets.at("downloads/Brochure.pdf")" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Brochure
                     </a>
                 </div>
@@ -313,17 +313,7 @@
                             <hr class="leaf-primary">
                         </div>
                         <div class="modal-body">
-                            <h3>Daily Schedule/ Flow of the Day (TBD)</h3>
-                            <p>The program operates Monday through Friday 8:30am to 1:15pm or 3:30pm, except for
-                                national holidays. The program begins at 8:30 am and pick-up ends at 1:15 pm, unless
-                                children are enrolled in full day sessions which require rest time in the afternoon and
-                                last until 3:30pm. A lead educator and an assistant educator work with a maximum of 9
-                                children, which allows for low child to adult ratios of 4.5:1. Predictability and
-                                routine are very important for young children, in addition to flexibility based on
-                                children’s needs. Our program will have similar routines each day, but may vary slightly
-                                depending on the environment and children’s needs on that particular day.
-                            </p>
-
+                            <h3>Daily Schedule</h3>
                             <div class="table-responsive">
                                 <table class="table">
                                     <tr>
@@ -339,12 +329,12 @@
                                     <tr>
                                         <td>8:45-9:00am</td>
                                         <td>Morning Circle</td>
-                                        <td>greeting, weather check, hazard identification, safety protocols as needed**</td>
+                                        <td>greeting, weather check, hazard identification, safety protocols as needed</td>
                                     </tr>
                                     <tr>
                                         <td>9:00-10:00am</td>
                                         <td>Outdoor Exploration</td>
-                                        <td>child-led outdoor time, conservation/preservation and safety reminders**</td>
+                                        <td>child-led outdoor time, conservation/preservation and safety reminders</td>
                                     </tr>
                                     <tr>
                                         <td>10:00-10:30am</td>
@@ -369,7 +359,7 @@
                                     <tr>
                                         <td>1:15pm</td>
                                         <td>Dismissal/Pick-up</td>
-                                        <td>Sign-out, afternoon communication*</td>
+                                        <td>Sign-out, afternoon communication</td>
                                     </tr>
                                     <tr>
                                         <td>1:15-2:30pm</td>
@@ -403,8 +393,8 @@
 
                             <p>
                                 <br/>
-                                <a href="@routes.Assets.at("downloads/SkillDevelopmentGuide.pdf")" class="btn btn-expander btn-lg btn-block">
-                                <i class="fa fa-download"></i> Skill Development Guide (PDF)
+                                <a href="@routes.Assets.at("downloads/SkillDevelopmentGuide.pdf")" class="btn btn-expander btn-block">
+                                <i class="fa fa-download"></i> Skill Development Guide
                                 </a>
                                 <br/>
                             </p>
@@ -439,33 +429,40 @@
                     </div>
                 </div>
             </div>
-
-            <section class="success">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-hdr">
                             <h2>Enrollment Information & Documents</h2>
-                            <hr class="leaf-light">
+                            <hr class="leaf-primary">
                         </div>
                         <div class="modal-body">
-                            <p></p>
-                            <a href="@routes.Assets.at("downloads/1ApplicationForm.pdf")" class="btn btn-lg btn-block btn-outline">
-                                <i class="fa fa-download"></i> Application Form (PDF)
+                            <h3>Enrollment Process</h3>
+                            <ol>
+                                <li>Initial Contact: Interested family contacts Outdoor Preschool</li>
+                                <li>Site Visit: Family and child visit school campus, receive Curriculum Guide+Family Handbook- Director meets with family, Educator interacts with child</li>
+                                <li>Apply: Family submits an application for enrollment, including $45 fee</li>
+                                <li>Enroll: If accepted (or waitlisted), submit an Admission Form and Enrollment Contract, including liability waiver, immunization record and tuition deposit</li>
+                                <li>Home Visit: Educator will offer to visit your home to help build a connection with family and child and to help family prepare gear and clothing items</li>
+                                <li>Orientation: 30-60 minute overview of program routine, expectations and important reminders</li>
+                            </ol>
+                            <h3>Documents</h3>
+                            <a href="@routes.Assets.at("downloads/1ApplicationForm.pdf")" class="btn btn-block btn-expander">
+                                Application Form (PDF)
                             </a>
-                            <a href="@routes.Assets.at("downloads/2-3AdmissionForm.pdf")" class="btn btn-lg btn-block btn-outline">
-                                <i class="fa fa-download"></i> Admission Form (PDF)
+                            <a href="@routes.Assets.at("downloads/2-3AdmissionForm.pdf")" class="btn btn-block btn-expander">
+                                Admission Form (PDF)
                             </a>
-                            <a href="@routes.Assets.at("downloads/3-3EnrollmentContract.pdf")" class="btn btn-lg btn-block btn-outline">
-                                <i class="fa fa-download"></i> Enrollment Contract (PDF)
+                            <a href="@routes.Assets.at("downloads/3-3EnrollmentContract.pdf")" class="btn btn-block btn-expander">
+                                Enrollment Contract (PDF)
                             </a>
-                            <a href="@routes.Assets.at("downloads/FamilyHandbook.pdf")" class="btn btn-lg btn-block btn-outline">
-                                <i class="fa fa-download"></i> Family Handbook (PDF)
+                            <a href="@routes.Assets.at("downloads/FamilyHandbook.pdf")" class="btn btn-block btn-expander">
+                                Family Handbook (PDF)
                             </a>
                             <br/>
                             <br/>
                             <br/>
-                            <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
