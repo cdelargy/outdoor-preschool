@@ -69,12 +69,12 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
-                        Philosophy & Mission
+                    <a href="#philosophyModal" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
+                        Mission & Philosophy
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
+                    <a href="#whyModal" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
                         Why Outdoor Preschool?
                     </a>
                 </div>
@@ -84,12 +84,12 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
+                    <a href="#resourcesModal" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
                         Resources
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
+                    <a href="#questionsModal" class="btn btn-lg btn-expander btn-block" data-toggle="modal">
                         Common Questions
                     </a>
                 </div>
@@ -148,7 +148,8 @@
                     </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="@routes.Assets.at("downloads/Brochure.pdf")" class="btn btn-lg btn-outline">
+                    <a href="@routes.Assets.at("downloads/Brochure.pdf")" target="_blank"
+                        class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Brochure
                     </a>
                 </div>
@@ -262,41 +263,6 @@
     </div>
 
     <!-- Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Detail Section</h2>
-                            <hr class="leaf-primary">
-                            <img src="@routes.Assets.at("img/tree.jpg")" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum</p>
-                            <ul class="list-inline item-details">
-                                <li>Lorem:
-                                    <strong><a href="#">Ipsum</a></strong>
-                                </li>
-                                <li>Lorem:
-                                    <strong><a href="#">Ipsum</a></strong>
-                                </li>
-                                <li>Lorem:
-                                    <strong><a href="#">Ipsum</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="portfolio-modal modal fade" id="curriculumModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -324,7 +290,7 @@
                                     <tr>
                                         <td>8:30-8:45am</td>
                                         <td>Drop-off/Arrival</td>
-                                        <td>Sign-in, morning communication*, hand-washing, clothing check, bathroom visits</td>
+                                        <td>Sign-in, morning communication, hand-washing, clothing check, bathroom visits</td>
                                     </tr>
                                     <tr>
                                         <td>8:45-9:00am</td>
@@ -393,7 +359,8 @@
 
                             <p>
                                 <br/>
-                                <a href="@routes.Assets.at("downloads/SkillDevelopmentGuide.pdf")" class="btn btn-expander btn-block">
+                                <a href="@routes.Assets.at("downloads/SkillDevelopmentGuide.pdf")" target="_blank"
+                                    class="btn btn-expander btn-block">
                                 <i class="fa fa-download"></i> Skill Development Guide
                                 </a>
                                 <br/>
@@ -411,9 +378,162 @@
                                 always accessible for families to see.
                             </p>
 
-                            </div>
-
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="philosophyModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-hdr">
+                            <h2>Mission & Philosophy</h2>
+                            <hr class="leaf-primary">
+                        </div>
+                        <div class="modal-body">
+                            <h3>Mission Statement</h3>
+                            <p>
+                                The mission of Outdoor Preschool is to provide children with time to explore, appreciate
+                                and connect with their environment while building a variety of essential life skills.
+                                Outdoor Preschool strives to cultivate an inclusive community of lifelong learners and
+                                ecologically conscious citizens through nurturing strong, respectful partnerships among
+                                adults, children and the natural world. We value and advocate for families’ voices,
+                                diversity, unique perspectives and expert knowledge of their children. Outdoor Preschool
+                                does not discriminate on the basis of gender, race, color, religious beliefs, national
+                                and ethnic origin, age, socioeconomic status, marital status, family structure,
+                                disability, or sexual orientation.
+                            </p>
+                            <h3>Philosophy</h3>
+                            <p>
+                                The Outdoor Preschool program combines play-based and child-led philosophies while
+                                focusing on the outdoor environment as the primary learning space. Educators act as
+                                facilitators of children’s learning, providing stimulation and support only as needed.
+                                We nurture children’s innate curiosity, creativity and healthy risk-taking in the
+                                outdoors, which enables them to connect and grow independently, and as community
+                                members. Outdoor Preschool aims to promote equity, while actively challenging prejudices
+                                and injustices through anti-bias education. Through meaningful interactions in nature,
+                                children learn how to take care of themselves, and how to respect themselves, each
+                                other, and the Earth.
+                            </p>
+                            <p>
+                                Our program emphasizes social and environmental responsibility with the goal of
+                                providing contextually and developmentally appropriate educational care. We acknowledge,
+                                encourage and respect that each child (and their family) brings diversity to our
+                                community. Educators routinely reflect on their own cultural and social identities,
+                                attitudes, strengths and challenges while embracing and facilitating expression of
+                                similarities and differences in the community. The program is flexibly structured to
+                                balance the needs of individual children, along with the needs of the group.
+                            </p>
+                            <br/>
+                            <br/>
+                            <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="whyModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-hdr">
+                            <h2>Why Outdoor Preschool?</h2>
+                            <hr class="leaf-primary">
+                        </div>
+                        <div class="modal-body">
+                            <h3>Play</h3>
+                            <p>Outdoor Preschool emphasizes a child’s right to play which is a child’s work. We plan for
+                                at least 3 hours of child-led, unstructured play time each day. Although children’s play
+                                might appear simple and repetitive, they often demonstrate tremendous mastery of complex
+                                concepts. For example, a 4 year old pretending to fly a plane by sitting on top of a
+                                fallen tree is using her imagination to construct symbolic meaning, a complicated
+                                cognitive task. She might ask peers to join her and act as passengers, which reveals her
+                                developing ability to collaborate with others. Researchers have documented significant
+                                impacts of play in terms of school readiness and healthy development of the brain,
+                                including social, emotional and physical skills<sup>1,2</sup>. Ultimately, play enables children
+                                to direct their own creative learning processes and guide their own development.
+                            </p>
+                            <h3>Physical Activity</h3>
+                            <p>Our program incorporates a high amount of physical activity, especially because we are
+                                outside much more often than traditional preschool programs. Research shows that nearly
+                                half of preschool children do not get enough active play, also referred to as moderate
+                                to vigorous physical activity (MVPA)<sup>3</sup>. Current governmental guidelines recommend that
+                                children ages 3-5 years old engage in at least 60 minutes of MVPA/active play each day.
+                                We provide children with 3+ hours of outdoor play each day. The outdoor environment is
+                                more likely to encourage active play (MVPA) compared to indoor environments.  We
+                                designed our program with the knowledge that children are healthier in the long-term,
+                                more able to learn and better able to self-regulate when their entire bodies are
+                                actively engaged in their work<sup>5,6</sup>.
+                                </p>
+                            <h3>Engaging with Nature</h3>
+                            <p>The natural world presents a huge variety of learning opportunities, health and wellness
+                                benefits. Experts agree that time spent outside encourages positive social, cognitive,
+                                emotional and physical development<sup>7</sup>. When it comes to the best environments for
+                                children’s learning, the natural world promotes the ideal balance of healthy risks,
+                                challenges and fun. Children and adults experience restorative cognitive functioning and
+                                lower stress levels when interacting with or looking at nature compared to non-natural,
+                                urban environments<sup>8,9,11</sup>.  Additionally, girls have shown to have improved self-
+                                discipline when spending time near natural environments<sup>10</sup>.
+                            </p>
+                            <br/><br/>
+                            <h4>References</h4>
+                            <p>
+                                <sup>1</sup>Neuroscience, Play and Child Development. Frost, J.
+                                    [<a href="http://eric.ed.gov/?id=ED427845">Source</a>]<br/>
+
+                                <sup>2</sup>From Neurons to Neighborhoods:The Science of Early Childhood Development. Committee on Integrating the Science of Early Childhood Development, Division of Behavioral and Social Sciences and Education,Institute of Medicine, Board on Children, Youth, and Families
+                                    National Academies Press, Nov 13, 2000<br/>
+
+                                <sup>3</sup>Physical Activity Levels of Preschool Aged Children.
+                                    [<a href="http://funnelcakes.pbworks.com/f/5983903470907061970.pdf<br/>
+
+                                <sup>4</sup>Physical Activity behaviors of Highly Active Preschoolers
+                                    [<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3543507/">Source</a>]<br/>
+
+                                <sup>5</sup>Physical Activity, Self-Regulation, and Early Academic Achievement in Preschool Children. Derek R. Becker, Megan M. McClelland, Paul Loprinzi, Stewart G. Trost. Early Education and Development Vol. 25, Iss. 1, 2014.
+                                    [<a href="http://www.tandfonline.com/doi/abs/10.1080/10409289.2013.780505#preview">Source</a>]<br/>
+
+                                <sup>6</sup>Health Benefits of Physical Activity in Children and Adolescents:In Prevention of Chronic Disease
+                                    [<a href="http://link.springer.com/article/10.1007/s004310051070">Source</a>]<br/>
+
+                                <sup>7</sup>Resurrecting Free Play in Young Children: Looking Beyond Fitness and Fatness to Attention, Affiliation and Affection
+                                    [<a href="http://www.childrenandnature.org/downloads/Burdette_LookingBeyond.pdf">Source</a>]<br/>
+
+                                <sup>8</sup>The Cognitive Benefits of Interacting With Nature; Marc G. Berman, John Jonides and Stephen Kaplan. Psychological Science, December 2008 19: 1207-1212, doi:10.1111/j.1467-9280.2008.02225.x
+                                    [<a href="http://pss.sagepub.com/content/19/12/1207.short">Source</a>]<br/>
+
+                                <sup>9</sup>At Home with Nature: The Effects of “Greenness” on Children’s Cognitive Functioning
+                                    [<a href="http://sfrc.ufl.edu/urbanforestry/Resources/PDF%20downloads/Wells_2000.pdf">Source</a>]<br/>
+
+                                <sup>10</sup>Views of Nature and Self-Discipline: Evidence from Inner City Children
+                                    [<a href="http://www.sfrc.ufl.edu/urbanforestry/Resources/PDF%20downloads/Faber%20Taylor_inner%20city_2001.pdf">Source</a>]<br/>
+
+                                <sup>11</sup>Buffer of Life Stress
+                                    [<a href="http://www.outdoorfoundation.org/pdf/NearbyNature.pdf">Source</a>]
+                            </p>
+                            <br/>
+                            <br/>
+                            <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -447,16 +567,20 @@
                                 <li>Orientation: 30-60 minute overview of program routine, expectations and important reminders</li>
                             </ol>
                             <h3>Documents</h3>
-                            <a href="@routes.Assets.at("downloads/1ApplicationForm.pdf")" class="btn btn-block btn-expander">
+                            <a href="@routes.Assets.at("downloads/1ApplicationForm.pdf")" target="_blank"
+                                class="btn btn-block btn-expander">
                                 Application Form (PDF)
                             </a>
-                            <a href="@routes.Assets.at("downloads/2-3AdmissionForm.pdf")" class="btn btn-block btn-expander">
+                            <a href="@routes.Assets.at("downloads/2-3AdmissionForm.pdf")" target="_blank"
+                                class="btn btn-block btn-expander">
                                 Admission Form (PDF)
                             </a>
-                            <a href="@routes.Assets.at("downloads/3-3EnrollmentContract.pdf")" class="btn btn-block btn-expander">
+                            <a href="@routes.Assets.at("downloads/3-3EnrollmentContract.pdf")" target="_blank"
+                                class="btn btn-block btn-expander">
                                 Enrollment Contract (PDF)
                             </a>
-                            <a href="@routes.Assets.at("downloads/FamilyHandbook.pdf")" class="btn btn-block btn-expander">
+                            <a href="@routes.Assets.at("downloads/FamilyHandbook.pdf")" target="_blank"
+                                class="btn btn-block btn-expander">
                                 Family Handbook (PDF)
                             </a>
                             <br/>
@@ -467,9 +591,135 @@
                     </div>
                 </div>
             </div>
-            </section>
         </div>
     </div>
+
+    <div class="portfolio-modal modal fade" id="resourcesModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-hdr">
+                            <h2>Resources</h2>
+                            <hr class="leaf-primary">
+                        </div>
+                        <div class="modal-body">
+                            <ul class="list-unstyled">
+                                <li><a href="http://www.childrenandnature.org/downloads/chawla1_Benefitsofnature_6.13.pdf" target="_blank">Benefits of Nature Fact Sheet</a> by the Children and Nature Network</li>
+                                <li><a href="http://naturalearning.org/sites/default/files/Benefits%20of%20Connecting%20Children%20with%20Nature_InfoSheet.pdf" target="_blank">Benefits of Connecting with Nature</a> by the Natural Learning Initiative</li>
+                                <li><a href="http://www.naeyc.org/store/files/store/TOC/254.pdf" target="_blank">What is Anti-Bias Education?</a> by Louise Derman-Sparks and Julie Olsen Edwards</li>
+                                <li><a href="https://docs.google.com/document/d/1wyJq9plElnXkCTGF1t2XOjfr4bNC0UGRYbriZ10Sh6U/edit?usp=sharing" target="_blank">A Case for Connecting Young Children to Nature</a> by Magdalena Cabrera</li>
+                                <li><a href="https://www.dropbox.com/s/hpgqqwetj4c4r7w/InfantToddlerTechHandout.pdf?dl=0" target="_blank">What we know about screen media and young children</a> by Annabelle Knight</li>
+                                <li><a href="http://www.childrenandnature.org/uploads/Ginsburg.pdf" target="_blank">Benefits of Play for Children</a> Pediatrics AAP Journal article</li>
+                                <li><a href="http://www.aap.org/en-us/advocacy-and-policy/aap-health-initiatives/HALF-Implementation-Guide/Age-Specific-Content/Pages/Preschool-Physical-Activity.aspx" target="_blank">Physical Activity</a> and <a href="http://www.healthychildren.org/English/ages-stages/preschool/Pages/default.aspx" target="_blank">General Advice</a> from the American Academy of Pediatrics</li>
+                                <li>The Children and Nature Network’s <a href="http://www.childrenandnature.org/reading/" target="_blank">recommended reading list</a> for adults interested in learning more about human connections with nature.</li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="questionsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-hdr">
+                            <h2>Commonly Asked Questions</h2>
+                            <hr class="leaf-primary">
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li><b>Do you always go outside?</b><br/>
+                                    Yes! If weather conditions drop below 15 degrees or above 90 degrees Fahrenheit,
+                                    there is heavy precipitation, thunder, lightning or high winds, children’s time
+                                    outdoors will be limited. Outdoor Preschool has many options for indoor activities.
+                                    Educators follow exposure recommendations from the National Oceanic and Atmospheric
+                                    Association (NOAA) website for wind chill and frostbite risk.
+                                </li>
+
+                                <li><b>Are there requirements for this program?</b><br/>
+                                    Yes. All children must have turned 3½ years of age by the time they are enrolled and
+                                    attending classes. Additionally, children must be toilet-trained and properly
+                                    dressed for the outdoors. Please read ‘Required Clothing and Gear’ in the Family
+                                    Handbook for further information.
+                                </li>
+
+                                <li><b>What is your teacher to child ratio?</b><br/>
+                                    4½:1 There are always two educators working with a maximum of 9 children each day.
+                                </li>
+
+                                <li><b>Are snacks and lunch provided?</b><br/>
+                                    Yes and No. Lunch is not provided. Snacks are provided. We always offer organic,
+                                    vegan snacks in the morning and afternoon in order to reduce our carbon footprint
+                                    and nourish our bodies. We recommend zero-waste lunches that use reusable packaging
+                                    and promote healthy eating habits. If children forget their lunch at home, the
+                                    following items will be available:
+                                    <ul>
+                                        <li>Fresh, organic fruits and vegetables, such as apples, pears, carrots and peppers</li>
+                                        <li>Organic, vegan crackers and whole grain bread</li>
+                                        <li>Organic Hummus and Black Bean Dip</li>
+                                    </ul>
+                                </li>
+
+                                <li><b>How far do you travel?</b><br/>
+                                    When children are newly enrolled, our adventure hikes will consist of about ½ -1½
+                                    miles total distance walking. As children grow stronger and more familiar with the
+                                    routine, we can walk up to 3 miles in a morning.
+                                </li>
+
+                                <li><b>What is anti-bias education and why is it important?</b><br/>
+                                    Research has shown that children as young as 3-4 years old have developed biases
+                                    around differences such as skin color and ability. At Outdoor Preschool we want to
+                                    promote equity and justice by actively combating bias and prejudice. The anti-bias
+                                    education approach supports children to identify and talk about differences and
+                                    similarities. We emphasize feeling comfortable and proud of unique attributes and
+                                    common humanity.
+                                </li>
+
+                                <li><b>Anti-bias Education Goals</b><br/>
+                                    Each child will demonstrate self-awareness, confidence, family pride, and positive social identities.
+                                    Each child will express comfort and joy with human diversity; accurate language for human differences; and deep, caring human connections.
+                                    Each child will increasingly recognize unfairness, have language to describe unfairness, and understand that unfairness hurts.
+                                    Each child will demonstrate empowerment and the skills to act, with others or alone, against prejudices and/or discriminatory actions.
+                                    (Derman-Sparks & Edwards, 2010, p.xiv)
+                                </li>
+
+                                <li><b>What does family participation look like?</b><br/>
+                                    Families are always welcome and encouraged to visit the school. Outdoor Preschool loves to have visitors help out and teach us new things whether it is for 5 minutes, 45 minutes or a day. We ask that families who are visiting, dress appropriately for the weather, including wearing similar items that we ask children to wear in order to model appropriate gear. When participating in Outdoor Preschool, we ask families to adhere to the following policies:
+                                    Adults do not help children climb higher than the child can climb by him or herself.
+                                    We can pick up material that is no longer living and we avoid picking up items that are still alive.
+                                    Children may take home pieces that are smaller than a finger and inanimate.
+                                    We can use sticks for walking if the child can adequately control their motion and sticks may be incorporated into play if they are responsibly moved.
+                                    Smoking is prohibited on all school property.
+                                </li>
+                            </ul>
+                            <br/>
+                            <br/>
+                            <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- jQuery -->
     <script src="@routes.Assets.at("js/jquery.js")"></script>
