@@ -35,3 +35,12 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Close the modal and go to contact
+$('.contact-section-link').click(function() {
+    $('#enrollmentModal').modal('hide');
+    $('html, body').stop().animate({
+        scrollTop: $('#contact').offset().top
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
+});
