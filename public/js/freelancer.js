@@ -44,3 +44,16 @@ $('.contact-section-link').click(function() {
     }, 1500, 'easeInOutExpo');
     event.preventDefault();
 });
+
+$(".modal").on("show.bs.modal", function()  { // any time a modal is shown
+    var urlReplace = "#" + $(this).attr('id'); // make the hash the id of the modal shown
+    history.pushState(null, null, urlReplace); // push state that hash into the url
+});
+$(".modal").on("hidden.bs.modal", function()  { // any time a modal is hidden
+    history.pushState(null, null, "#"); // push empty hash on url
+});
+
+// If a pushstate has previously happened and the back button is clicked, hide any modals.
+$(window).on('popstate', function() {
+    $(".modal").modal('hide');
+});
